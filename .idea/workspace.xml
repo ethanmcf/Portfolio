@@ -5,29 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873611df-2c8b-48e5-81c7-baea14f64f43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/headers/hockey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/headers/tangerine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/headers/tilecoinc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/headers/uoft.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/book.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/briefcase.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/constellations.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/desktop-radial-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/devpost.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/download.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/initials-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/mobile-radial-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/project.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/share.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/stars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svgs/user.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/svgs/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/svgs/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/LinksInterface.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/LinksInterface.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BulletNotes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BulletNotes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EmailForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EmailForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SplitLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SplitLayout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703263204856</updated>
-      <workItem from="1703263205939" duration="4357000" />
+      <workItem from="1703263205939" duration="5023000" />
     </task>
     <servers />
   </component>

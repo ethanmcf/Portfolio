@@ -2,6 +2,6 @@ import { ReactElement } from "react";
 
 export interface Links {
   title: string;
-  svg?: ReactElement;
+  svg: ReactElement;
   url: string;
 }

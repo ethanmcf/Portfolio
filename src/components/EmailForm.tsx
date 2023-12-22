@@ -1,4 +1,4 @@
-// import ShareSVG from "@public/images/svgs/share.svg";
+import ShareSVG from "../../public/images/svgs/share.svg";
 export default function EmailForm() {
   return (
     <form>
@@ -19,7 +19,7 @@ export default function EmailForm() {
           <span className="absolute inset-0 rounded-md bg-gradient-to-b from-white/10 to-white opacity-10 transition-opacity group-hover:opacity-15" />
           <span className="absolute inset-0 rounded-md opacity-7.5 shadow-[inset_0_1px_1px_white] shadow-grey transition-opacity group-hover:opacity-10" />
           <span>Send </span>
-          {/*<ShareSVG className={"fill-white ml-2 mt-[6px] w-[12px] h-[12px]"} />*/}
+          <ShareSVG className={"fill-white ml-2 mt-[6px] w-[12px] h-[12px]"} />
         </button>
         <div className="absolute inset-0  rounded-lg transition peer-focus:ring-4 peer-focus:ring-blue/16" />
         <div className="absolute inset-0  rounded-lg ring-1 ring-grey peer-focus:ring-blue  " />
