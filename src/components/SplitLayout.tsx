@@ -88,10 +88,9 @@ export default function SplitLayout({ children }: { children?: ReactElement }) {
                   <span className="text-blue">innovation and hard work</span>
                 </h1>
                 <p className="mt-4 text-sm/6 font-extralight text-white">
-                  Balancing semi-pro hockey alongside pursuing Computer Science
-                  at U of T, I've honed time management skills, showcasing a
-                  passion for coding since age 15 and delivering enthusiasm and
-                  dedication to every project.
+                  {"Balancing semi-pro hockey alongside pursuing Computer Science at U of T, " +
+                    "I've honed time management skills, showcasing a passion for coding since " +
+                    "age 15 and delivering enthusiasm and dedication to every project."}
                 </p>
 
                 <div className="mt-8 flex flex-wrap justify-center gap-y-3 sm:gap-x-2 lg:justify-start">
