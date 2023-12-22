@@ -17,6 +17,7 @@ import { ReactElement } from "react";
 import RadioButton from "../components/RadioButton";
 import { usePathname } from "next/navigation";
 import { Links } from "../app/LinksInterface";
+import Link from "next/link";
 
 const SocialLinks: Links[] = [
   {
@@ -110,7 +111,7 @@ export default function SplitLayout({ children }: { children?: ReactElement }) {
                     "relative mt-7 flex justify-center lg:justify-start"
                   }
                 >
-                  <a
+                  <Link
                     className="relative px-4 py-2 overflow-hidden font-medium text-grey bg-white border border-white rounded-lg shadow-inner group"
                     download={true}
                     href={"/Resume.pdf"}
@@ -126,7 +127,7 @@ export default function SplitLayout({ children }: { children?: ReactElement }) {
                       {/*  className={"w-[20px] h-[20px] ml-2 mt-[1px]"}*/}
                       {/*/>*/}
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
