@@ -1,0 +1,11 @@
+<svg width="157" height="134" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <radialGradient id=":S1:-desktop" cx="100%">
+        <stop offset="0%" stop-color="rgba(56, 189, 248, 0.5)" />
+        <stop offset="53.95%" stop-color="rgba(0, 71, 255, 0.14)" />
+        <stop offset="100%" stop-color="rgba(10, 14, 23, 0)" />
+    </radialGradient>
+    <rect width="100%"
+          height="100%"
+          fill="url(#:S1:-desktop)"
+    />
+</svg>
