@@ -24,13 +24,11 @@ export default function AboutPage() {
           subTitle="August 26, 2003"
         />
         <p className="text-sm">
-          Welcome to my portfolio! I'm a 2003-born Computer Science student at
-          the University of Toronto who loves coding and solving problems. As a
-          semi-pro hockey player from Toronto, I bring teamwork and discipline
-          from the ice to software development. I'm on a journey to become a
-          software engineer, blending my academic studies, coding passion, and
-          Toronto roots. Explore my portfolio to see how these elements come
-          together!
+          {"Welcome to my portfolio! I'm a 2003-born Computer Science student at the University of Toronto who loves " +
+            "coding and solving problems. As a semi-pro hockey player from Toronto, I bring teamwork and discipline " +
+            "from the ice to software development. I'm on a journey to become a software engineer, blending my " +
+            "academic studies, coding passion, and Toronto roots. Explore my portfolio to see how these elements " +
+            "come together!"}
         </p>
         <BulletNotes
           title="Awards and Honors"

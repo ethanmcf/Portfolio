@@ -31,13 +31,11 @@ const TileCoIncExperience = () => {
         subTitle="Web Designer"
       />
       <p className="text-sm">
-        During my tenure at TileCo Inc as a Web Designer, I actively contributed
-        to the development of the company's web design, overseeing tasks such as
-        managing image updates and introducing new products. In this role, I
-        played a crucial part in maintaining the visual integrity of the web
-        application by consistently executing essential updates. Additionally, I
-        facilitated the seamless introduction of new products, ensuring a
-        user-friendly and visually appealing online experience for customers.
+        {" During my tenure at TileCo Inc as a Web Designer, I actively contributed to the development of the " +
+          "company's web design, overseeing tasks such as managing image updates and introducing new products. " +
+          "In this role, I played a crucial part in maintaining the visual integrity of the web application by " +
+          "consistently executing essential updates. Additionally, I facilitated the seamless introduction of " +
+          "new products, ensuring a user-friendly and visually appealing online experience for customers."}
       </p>
       <p className="text-sm mt-5">
         This experience not only honed my skills in web design but also taught
