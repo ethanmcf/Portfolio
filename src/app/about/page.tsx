@@ -5,11 +5,9 @@ import HockeyIMG from "../../../public/images/headers/hockey.jpg";
 import ArticleHeader from "../../components/ArticleHeader";
 import EmailForm from "../../components/EmailForm";
 import TransitionEffect from "../../components/TransitionEffect";
-import getLoad from "../lib/getLoad";
 import { useEffect, useState } from "react";
 
 export default function AboutPage() {
-  // await getLoad();
   const [forceAnimation, setForceAnimation] = useState(false);
 
   // triggered once

@@ -3,7 +3,7 @@ import AboutPage from "./about/page";
 import getLoad from "./lib/getLoad";
 
 export default async function Home() {
-  await getLoad();
+  // await getLoad();
   return (
     <>
       <AboutPage />
