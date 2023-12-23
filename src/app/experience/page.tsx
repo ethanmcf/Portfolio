@@ -5,8 +5,10 @@ import TangerineIMG from "../../../public/images/headers/tangerine.png";
 import TileCoIncIMG from "../../../public/images/headers/tilecoinc.png";
 import ArticleHeader from "../../components/ArticleHeader";
 import TransitionEffect from "../../components/TransitionEffect";
+import getLoad from "../lib/getLoad";
 
 export default async function ExperiencePage() {
+  // await getLoad();
   const TangerineExperience = () => {
     return (
       <>

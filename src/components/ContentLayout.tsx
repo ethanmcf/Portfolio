@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import getLoad from "../app/lib/getLoad";
 interface CustomLayoutProps {
   children?: ReactNode;
   className?: string;
@@ -8,7 +7,6 @@ export default async function ContentLayout({
   children = null,
   className = "",
 }: CustomLayoutProps) {
-  await getLoad();
   return (
     <>
       <div

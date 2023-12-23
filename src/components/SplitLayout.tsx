@@ -13,7 +13,7 @@ import DesktopRadialLightSVG from "../../public/images/svgs/desktop-radial-light
 import MobileRadialLightSVG from "../../public/images/svgs/mobile-radial-light.svg";
 import DownloadSVG from "../../public/images/svgs/download.svg";
 import StyledExternalLink from "../components/StyledExternalLink";
-import { ReactElement, useEffect, useState } from "react";
+import { ReactElement } from "react";
 import RadioButton from "../components/RadioButton";
 import { usePathname } from "next/navigation";
 import { Links } from "../app/lib/LinksInterface";

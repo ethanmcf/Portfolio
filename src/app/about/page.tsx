@@ -5,8 +5,10 @@ import HockeyIMG from "../../../public/images/headers/hockey.jpg";
 import ArticleHeader from "../../components/ArticleHeader";
 import EmailForm from "../../components/EmailForm";
 import TransitionEffect from "../../components/TransitionEffect";
+import getLoad from "../lib/getLoad";
 
 export default async function AboutPage() {
+  // await getLoad();
   return (
     <>
       <TransitionEffect />

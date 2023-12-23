@@ -4,8 +4,10 @@ import ContentLayout from "../../components/ContentLayout";
 import UoftIMG from "../../../public/images/headers/uoft.jpg";
 import ArticleHeader from "../../components/ArticleHeader";
 import TransitionEffect from "../../components/TransitionEffect";
+import getLoad from "../lib/getLoad";
 
 export default async function EducationPage() {
+  // await getLoad();
   return (
     <>
       <TransitionEffect />
