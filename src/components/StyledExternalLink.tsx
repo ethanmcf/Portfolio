@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Links } from "../app/LinksInterface";
+import { Links } from "../app/lib/LinksInterface";
 export default function StyledExternalLink({ url, svg, title }: Links) {
   return (
     <main>

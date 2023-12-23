@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873611df-2c8b-48e5-81c7-baea14f64f43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/lib/getLoad.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TransitionEffect.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/LinksInterface.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/lib/LinksInterface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/education/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/education/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/experience/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/experience/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContentLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContentLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RadioButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RadioButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SplitLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SplitLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StyledExternalLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StyledExternalLink.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703263204856</updated>
-      <workItem from="1703263205939" duration="14181000" />
+      <workItem from="1703263205939" duration="14342000" />
     </task>
     <servers />
   </component>
