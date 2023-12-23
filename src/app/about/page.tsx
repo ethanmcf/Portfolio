@@ -6,12 +6,19 @@ import ArticleHeader from "../../components/ArticleHeader";
 import EmailForm from "../../components/EmailForm";
 import TransitionEffect from "../../components/TransitionEffect";
 import getLoad from "../lib/getLoad";
+import { useEffect, useState } from "react";
 
-export default async function AboutPage() {
-  await getLoad();
+export default function AboutPage() {
+  // await getLoad();
+  const [forceAnimation, setForceAnimation] = useState(false);
+
+  // triggered once
+  useEffect(() => {
+    setForceAnimation(true);
+  }, []);
   return (
     <>
-      <TransitionEffect />
+      {forceAnimation ? <TransitionEffect /> : null}
       <ContentLayout>
         <ArticleHeader
           src={HockeyIMG}
