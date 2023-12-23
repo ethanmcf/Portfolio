@@ -1,19 +1,21 @@
 import React, { ReactNode } from "react";
+import getLoad from "../app/lib/getLoad";
 interface CustomLayoutProps {
   children?: ReactNode;
   className?: string;
 }
-const ContentLayout = ({
+export default async function ContentLayout({
   children = null,
   className = "",
-}: CustomLayoutProps) => {
+}: CustomLayoutProps) {
+  await getLoad();
   return (
-    <div
-      className={`mx-auto max-w-lg bg-backgroundStart w-full px-4 lg:max-w-[600px] xl:ml-8 lg:px-8 lg:pt-20 lg:pb-20 pb-10 ${className}`}
-    >
-      {children}
-    </div>
+    <>
+      <div
+        className={`mx-auto max-w-lg bg-backgroundStart w-full px-4 lg:max-w-[600px] xl:ml-8 lg:px-8 lg:pt-20 lg:pb-20 pb-10 ${className}`}
+      >
+        {children}
+      </div>
+    </>
   );
-};
-
-export default ContentLayout;
+}

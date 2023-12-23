@@ -1,10 +1,12 @@
+"use client";
 import BulletNotes from "../../components/BulletNotes";
 import ContentLayout from "../../components/ContentLayout";
 import TangerineIMG from "../../../public/images/headers/tangerine.png";
 import TileCoIncIMG from "../../../public/images/headers/tilecoinc.png";
 import ArticleHeader from "../../components/ArticleHeader";
+import TransitionEffect from "../../components/TransitionEffect";
 
-export default function ExperiencePage() {
+export default async function ExperiencePage() {
   const TangerineExperience = () => {
     return (
       <>
@@ -83,9 +85,12 @@ export default function ExperiencePage() {
   };
 
   return (
-    <ContentLayout>
-      <TangerineExperience />
-      <TileCoIncExperience />
-    </ContentLayout>
+    <>
+      <TransitionEffect />
+      <ContentLayout>
+        <TangerineExperience />
+        <TileCoIncExperience />
+      </ContentLayout>
+    </>
   );
 }

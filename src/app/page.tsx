@@ -1,8 +1,9 @@
+"use client";
 import AboutPage from "./about/page";
-import Loading from "./loading";
-import ContentLayout from "../components/ContentLayout";
+import getLoad from "./lib/getLoad";
 
-export default function Home() {
+export default async function Home() {
+  await getLoad();
   return (
     <>
       <AboutPage />

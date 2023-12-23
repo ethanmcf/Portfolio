@@ -1,12 +1,15 @@
+"use client";
 import BulletNotes from "../../components/BulletNotes";
 import ContentLayout from "../../components/ContentLayout";
 import HockeyIMG from "../../../public/images/headers/hockey.jpg";
 import ArticleHeader from "../../components/ArticleHeader";
 import EmailForm from "../../components/EmailForm";
+import TransitionEffect from "../../components/TransitionEffect";
 
-export default function AboutPage() {
+export default async function AboutPage() {
   return (
     <>
+      <TransitionEffect />
       <ContentLayout>
         <ArticleHeader
           src={HockeyIMG}
