@@ -55,7 +55,7 @@ export default function EmailForm() {
         <textarea
           required={true}
           id=":S4:"
-          className="peer h-[120px] z-30 rounded-md px-4 w-full py-2 resize-none bg-darkGrey text-white sm:text-[0.8125rem]/6 focus:outline-none"
+          className="peer h-[120px] z-20 rounded-md px-4 w-full py-2 resize-none bg-darkGrey text-white sm:text-[0.8125rem]/6 focus:outline-none"
           placeholder="Message"
           name="message"
         />

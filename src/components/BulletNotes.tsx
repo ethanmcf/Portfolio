@@ -12,8 +12,8 @@ export default function EducationPage({ title, notes }: CustomBulletProps) {
       </div>
       <ul className="text-sm space-y-2.5 w-full list-disc list-inside ml-2">
         {notes.map((note: string, index: number) => (
-          <li key={index} className={"mt-2"}>
-            <div className="ml-6 -mt-5">{note}</div>
+          <li key={index} className={"mt-[5px] relative"}>
+            <div className="ml-6 -mt-5 relative">{note}</div>
           </li>
         ))}
       </ul>
