@@ -1,8 +1,8 @@
 "use client";
 import BulletNotes from "../../components/BulletNotes";
 import ContentLayout from "../../components/ContentLayout";
-import TangerineIMG from "../../../public/images/headers/tangerine.png";
-import TileCoIncIMG from "../../../public/images/headers/tilecoinc.png";
+import TangerineIMG from "../../../public/images/headers/tangerine.jpg";
+import TileCoIncIMG from "../../../public/images/headers/tilecoinc.jpg";
 import ArticleHeader from "../../components/ArticleHeader";
 import TransitionEffect from "../../components/TransitionEffect";
 import { useEffect, useState } from "react";
@@ -28,34 +28,25 @@ const TileCoIncExperience = () => {
       <ArticleHeader
         src={TileCoIncIMG}
         title="TileCo Inc"
-        subTitle="May 2023 - August 2023"
+        subTitle="Web Designer"
       />
       <p className="text-sm">
-        As a dedicated Computer Science student at the University of Toronto, my
-        academic journey has been a dynamic exploration of both theoretical
-        concepts and hands-on applications. The rigorous coursework,
-        complemented by practical projects and collaborative endeavors, has
-        equipped me with a comprehensive skill set essential for a career in
-        computer science. Through coursework emphasizing algorithms, data
-        structures, and software development methodologies, I have gained a deep
-        understanding of the theoretical underpinnings of the field.
+        During my tenure at TileCo Inc as a Web Designer, I actively contributed
+        to the development of the company's web design, overseeing tasks such as
+        managing image updates and introducing new products. In this role, I
+        played a crucial part in maintaining the visual integrity of the web
+        application by consistently executing essential updates. Additionally, I
+        facilitated the seamless introduction of new products, ensuring a
+        user-friendly and visually appealing online experience for customers.
       </p>
       <p className="text-sm mt-5">
-        Additionally, engaging in real-world projects, both individually and as
-        part of a team, has allowed me to apply these concepts in practical
-        scenarios, refining my problem-solving abilities and enhancing my coding
-        proficiency.
+        This experience not only honed my skills in web design but also taught
+        me the importance of proactive maintenance and the seamless integration
+        of new features to enhance the overall user experience.
       </p>
       <BulletNotes
         title="Skills developed"
-        notes={[
-          "Foundations of Computer Science I & II",
-          "Software Design",
-          "Theory of Computation",
-          "Computer Organization & Programming",
-          "Object-Oriented Programming",
-          "Statistical Reasoning",
-        ]}
+        notes={["Web Design", "Word Press"]}
       />
     </>
   );
@@ -65,34 +56,40 @@ const TangerineExperience = () => {
     <>
       <ArticleHeader
         src={TangerineIMG}
-        title="Tangerine "
-        subTitle="May 2023 - August 2023"
+        title="Tangerine"
+        subTitle="Quality Engineer"
       />
       <p className="text-sm">
-        As a dedicated Computer Science student at the University of Toronto, my
-        academic journey has been a dynamic exploration of both theoretical
-        concepts and hands-on applications. The rigorous coursework,
-        complemented by practical projects and collaborative endeavors, has
-        equipped me with a comprehensive skill set essential for a career in
-        computer science. Through coursework emphasizing algorithms, data
-        structures, and software development methodologies, I have gained a deep
-        understanding of the theoretical underpinnings of the field.
+        During my internship at Tangerine as a Quality Engineering Intern, I
+        played a pivotal role in the regression team, ensuring the consistency
+        and stability of software post-updates for mobile and web applications.
+        I developed TypeScript scripts to expand test coverage and improve user
+        interface functionality across both platforms.
       </p>
       <p className="text-sm mt-5">
-        Additionally, engaging in real-world projects, both individually and as
-        part of a team, has allowed me to apply these concepts in practical
-        scenarios, refining my problem-solving abilities and enhancing my coding
-        proficiency.
+        Noteworthy achievements during this period include the revitalization of
+        the Selenium WebDriver implementation, boosting the speed of mobile web
+        testing execution by over 25% and significantly benefiting offshore
+        teams and remote employees. I also successfully presented enhanced
+        Selenium WebDriver updates to senior management. Additionally, I
+        developed Java scripts that accelerated the migration of API test
+        scripts from Postman to Eclipse, markedly reducing the workload on my
+        team and streamlining the transition process.
+      </p>
+      <p className="text-sm mt-5">
+        This internship has equipped me with valuable skills in quality
+        engineering, scripting, and project management, emphasizing the
+        importance of innovation and efficiency in software testing.
       </p>
       <BulletNotes
         title="Skills developed"
         notes={[
-          "Foundations of Computer Science I & II",
-          "Software Design",
-          "Theory of Computation",
-          "Computer Organization & Programming",
-          "Object-Oriented Programming",
-          "Statistical Reasoning",
+          "Quality Assurance",
+          "Agile Methodologies",
+          "Jira",
+          "Bug Tracking",
+          "TypeScript",
+          "Git",
         ]}
       />
     </>

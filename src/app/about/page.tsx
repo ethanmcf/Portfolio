@@ -24,30 +24,21 @@ export default function AboutPage() {
           subTitle="August 26, 2003"
         />
         <p className="text-sm">
-          As a dedicated Computer Science student at the University of Toronto,
-          my academic journey has been a dynamic exploration of both theoretical
-          concepts and hands-on applications. The rigorous coursework,
-          complemented by practical projects and collaborative endeavors, has
-          equipped me with a comprehensive skill set essential for a career in
-          computer science. Through coursework emphasizing algorithms, data
-          structures, and software development methodologies, I have gained a
-          deep understanding of the theoretical underpinnings of the field.
-        </p>
-        <p className="text-sm mt-5">
-          Additionally, engaging in real-world projects, both individually and
-          as part of a team, has allowed me to apply these concepts in practical
-          scenarios, refining my problem-solving abilities and enhancing my
-          coding proficiency.
+          Welcome to my portfolio! I'm a 2003-born Computer Science student at
+          the University of Toronto who loves coding and solving problems. As a
+          semi-pro hockey player from Toronto, I bring teamwork and discipline
+          from the ice to software development. I'm on a journey to become a
+          software engineer, blending my academic studies, coding passion, and
+          Toronto roots. Explore my portfolio to see how these elements come
+          together!
         </p>
         <BulletNotes
-          title="Awards"
+          title="Awards and Honors"
           notes={[
-            "Foundations of Computer Science I & II",
-            "Software Design",
-            "Theory of Computation",
-            "Computer Organization & Programming",
-            "Object-Oriented Programming",
-            "Statistical Reasoning",
+            "George F. Dufton Post-Secondary Academic Scholarship Winner",
+            "On UofT's Dean's List for aquiring a 3.84s GPA in first year",
+            "Ontario Scholar Award for achieving a 96% average",
+            "Honours Math Science and Technology Program Graduate",
           ]}
         />
         <h1 className="text-2xl font-bold mt-12">Lets get in touch</h1>

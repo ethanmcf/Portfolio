@@ -9,7 +9,7 @@ export default function Loading() {
           role="status"
           className="w-full animate-pulse h-screen mt-8 opacity-70"
         >
-          <div className="h-[200px] bg-white/30 rounded-lg w-full mt-20 [&+*]:mt-8" />
+          <div className="h-[300px] bg-white/30 rounded-xl w-full mt-20 [&+*]:mt-8" />
           <div className="h-6 bg-white/30 rounded-full  w-[17rem] mb-2" />
           <div className="h-2.5 bg-white/30 rounded-full  w-[7rem] mb-8" />
 
@@ -47,7 +47,7 @@ export default function Loading() {
               </div>
             </li>
           </ul>
-          <div className="h-[200px] bg-white/30 rounded-lg w-full mt-20 [&+*]:mt-8" />
+          <div className="h-[300px] bg-white/30 rounded-xl w-full mt-20 [&+*]:mt-8" />
           <div className="h-6 bg-white/30 rounded-full  w-[17rem] mb-2" />
           <div className="h-2.5 bg-white/30 rounded-full  w-[7rem] mb-8" />
 

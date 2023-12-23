@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Links } from "../app/lib/LinksInterface";
+import { Links } from "../lib/LinksInterface";
 interface CustomProps extends Links {
   active?: boolean;
 }

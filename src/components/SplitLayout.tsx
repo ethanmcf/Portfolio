@@ -16,7 +16,7 @@ import StyledExternalLink from "../components/StyledExternalLink";
 import { ReactElement } from "react";
 import RadioButton from "../components/RadioButton";
 import { usePathname } from "next/navigation";
-import { Links } from "../app/lib/LinksInterface";
+import { Links } from "../lib/LinksInterface";
 import Link from "next/link";
 
 const SocialLinks: Links[] = [
