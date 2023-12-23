@@ -8,7 +8,7 @@ import TransitionEffect from "../../components/TransitionEffect";
 import getLoad from "../lib/getLoad";
 
 export default async function ExperiencePage() {
-  // await getLoad();
+  await getLoad();
   const TangerineExperience = () => {
     return (
       <>

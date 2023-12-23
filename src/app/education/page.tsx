@@ -7,7 +7,7 @@ import TransitionEffect from "../../components/TransitionEffect";
 import getLoad from "../lib/getLoad";
 
 export default async function EducationPage() {
-  // await getLoad();
+  await getLoad();
   return (
     <>
       <TransitionEffect />

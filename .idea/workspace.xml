@@ -10,8 +10,7 @@
       <change beforePath="$PROJECT_DIR$/src/app/education/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/education/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/experience/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/experience/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContentLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContentLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SplitLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SplitLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TransitionEffect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TransitionEffect.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703263204856</updated>
-      <workItem from="1703263205939" duration="15377000" />
+      <workItem from="1703263205939" duration="15857000" />
     </task>
     <servers />
   </component>

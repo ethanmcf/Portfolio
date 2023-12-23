@@ -8,7 +8,7 @@ import TransitionEffect from "../../components/TransitionEffect";
 import getLoad from "../lib/getLoad";
 
 export default async function AboutPage() {
-  // await getLoad();
+  await getLoad();
   return (
     <>
       <TransitionEffect />
