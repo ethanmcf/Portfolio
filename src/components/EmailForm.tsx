@@ -2,14 +2,14 @@ import ShareSVG from "../../public/images/svgs/share.svg";
 export default function EmailForm() {
   return (
     <form>
-      <div className="relative mt-8 flex items-center pr-0">
+      <div className="relative mt-8 flex items-center pr-0 bg-darkGrey">
         <input
           required={true}
           type="email"
           autoComplete="off"
           id=":S3:"
           placeholder="Email address"
-          className="peer z-20 flex-auto bg-darkGrey px-4 py-2.5 text-white rounded-lg focus:outline-none sm:text-[0.8125rem]/6"
+          className="peer z-20 w-full bg-darkGrey px-4 py-2.5 text-white rounded-lg focus:outline-none sm:text-[0.8125rem]/6"
           name="email"
         />
         <button
@@ -21,37 +21,37 @@ export default function EmailForm() {
           <span>Send </span>
           <ShareSVG className={"fill-white ml-2 mt-[6px] w-[12px] h-[12px]"} />
         </button>
-        <div className="absolute inset-0  rounded-lg transition peer-focus:ring-4 peer-focus:ring-blue/16" />
-        <div className="absolute inset-0  rounded-lg ring-1 ring-grey peer-focus:ring-blue  " />
+        <div className="absolute inset-0 rounded-lg transition peer-focus:ring-4 peer-focus:ring-blue/16" />
+        <div className="absolute inset-0 rounded-lg ring-1 ring-grey peer-focus:ring-blue  " />
       </div>
       <div className={"flex mt-3"}>
-        <div className="relative flex items-center pr-0 flex-1 mr-2">
-          <input
-            required={true}
-            autoComplete="off"
-            id=":S3:"
-            placeholder="Name "
-            className="peer z-20 flex-auto bg-darkGrey px-4 py-2.5 text-white rounded-lg focus:outline-none sm:text-[0.8125rem]/6"
-            name="name"
-          />
-          <div className="absolute inset-0  rounded-lg transition peer-focus:ring-4 peer-focus:ring-blue/16" />
-          <div className="absolute inset-0  rounded-lg ring-1 ring-grey peer-focus:ring-blue  " />
-        </div>
-        <div className="relative flex items-center pr-0 flex-1 ml-2">
+        <div className="relative flex items-center pr-0 flex-1 mr-2 w-1/2">
           <input
             required={true}
             autoComplete="off"
             id=":S3:"
             placeholder="Subject "
-            className="peer z-20 flex-auto bg-darkGrey px-4 py-2.5 text-white rounded-lg focus:outline-none sm:text-[0.8125rem]/6"
+            className="peer z-20 bg-darkGrey w-full px-4 py-2.5 text-white rounded-lg focus:outline-none sm:text-[0.8125rem]/6"
             name="subject"
+          />
+          <div className="absolute inset-0  rounded-lg transition peer-focus:ring-4 peer-focus:ring-blue/16" />
+          <div className="absolute inset-0  rounded-lg ring-1 ring-grey peer-focus:ring-blue  " />
+        </div>
+        <div className="relative flex items-center pr-0 flex-1 ml-2 w-1/2">
+          <input
+            required={true}
+            autoComplete="off"
+            id=":S3:"
+            placeholder="Name "
+            className="peer z-20 flex-auto bg-darkGrey w-full px-4 py-2.5 text-white rounded-lg focus:outline-none sm:text-[0.8125rem]/6"
+            name="name"
           />
           <div className="absolute inset-0  rounded-lg transition peer-focus:ring-4 peer-focus:ring-blue/16" />
           <div className="absolute inset-0  rounded-lg ring-1 ring-grey peer-focus:ring-blue  " />
         </div>
       </div>
 
-      <div className="relative mt-3 flex items-center pr-1">
+      <div className="relative mt-3 flex items-center">
         <textarea
           required={true}
           id=":S4:"
