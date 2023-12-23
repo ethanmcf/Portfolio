@@ -4,13 +4,18 @@ import ContentLayout from "../../components/ContentLayout";
 import UoftIMG from "../../../public/images/headers/uoft.jpg";
 import ArticleHeader from "../../components/ArticleHeader";
 import TransitionEffect from "../../components/TransitionEffect";
-import getLoad from "../lib/getLoad";
+import { useEffect, useState } from "react";
 
-export default async function ProjectsPage() {
-  await getLoad();
+export default function ProjectsPage() {
+  const [forceAnimation, setForceAnimation] = useState(false);
+
+  // triggered once
+  useEffect(() => {
+    setForceAnimation(true);
+  }, []);
   return (
     <>
-      <TransitionEffect />
+      {forceAnimation ? <TransitionEffect /> : null}
       <ContentLayout>
         <ArticleHeader src={UoftIMG} title="Connect 4 AI" subTitle="Dec 2022" />
         <p className="text-sm">

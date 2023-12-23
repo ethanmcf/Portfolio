@@ -2,12 +2,6 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const TransitionEffect = () => {
-  const [forceAnimation, setForceAnimation] = useState(false);
-
-  // triggered once
-  useEffect(() => {
-    setForceAnimation(true);
-  }, []);
   return (
     <>
       <motion.div
