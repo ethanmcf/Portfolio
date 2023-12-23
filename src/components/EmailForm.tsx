@@ -1,5 +1,10 @@
 import ShareSVG from "../../public/images/svgs/share.svg";
+import { toast } from "react-hot-toast";
 export default function EmailForm() {
+  function sendEmail(e: React.FormEvent) {
+    e.preventDefault();
+    toast.error("Could not send email, try again later");
+  }
   return (
     <form>
       <div className="relative mt-8 flex items-center pr-0 bg-darkGrey">
@@ -14,7 +19,8 @@ export default function EmailForm() {
         />
         <button
           className="group relative z-10 rounded-md py-1.5 text-[0.8125rem]/6 font-semibold text-white pl-2.5 pr-[calc(9/16*1rem)] mr-1 flex align-middle"
-          type="submit"
+          type="button"
+          onClick={sendEmail}
         >
           <span className="absolute inset-0 rounded-md bg-gradient-to-b from-white/10 to-white opacity-10 transition-opacity group-hover:opacity-15" />
           <span className="absolute inset-0 rounded-md opacity-7.5 shadow-[inset_0_1px_1px_white] shadow-grey transition-opacity group-hover:opacity-10" />

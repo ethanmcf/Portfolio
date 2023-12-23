@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "../../styles/globals.css";
 import SplitLayout from "../components/SplitLayout";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "Ethan McFarland",
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Toaster position={"bottom-center"} containerClassName={"w-full"} />
         <SplitLayout>
           <div
             className={
